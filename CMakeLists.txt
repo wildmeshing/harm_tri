@@ -12,4 +12,4 @@ include(libigl)
 # Add your project files
 file(GLOB SRC_FILES *.cpp)
 add_executable(${PROJECT_NAME} ${SRC_FILES})
-target_link_libraries(${PROJECT_NAME} PUBLIC igl::core igl::opengl_glfw)
+target_link_libraries(${PROJECT_NAME} PUBLIC igl::core igl::cgal)
